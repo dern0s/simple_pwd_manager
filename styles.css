@@ -1,0 +1,49 @@
+body{
+    background-color: #FFF1E6;
+    margin: 0;
+    padding: 0;
+}
+
+.main-container{
+    font-family: "Open Sans", sans-serif;
+    font-size: 1em;
+    color: #001427;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+}
+
+.main-form{
+    border: none;
+    font-size: 1.5em;
+    background-color: #708D81;
+    border-radius: 15px;
+    height: 56px;
+    width: 420px;
+    text-align: center;
+    color: #FFF1E6;
+}
+
+
+
+.hash-container{
+    color: #001427;
+}
+
+.send-button{
+    border: none;
+    border-radius: 15px;
+    width: 128px;
+    height: 56px;
+    background-color: #B8BFB4;
+    color: #001427;
+    font-size: 1.5em;
+}
+
+.send-button:hover{
+    background-color: #001427;
+    color: #B8BFB4;
+}

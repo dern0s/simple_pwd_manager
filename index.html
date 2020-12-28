@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Phrase Transformer</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+    rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="main-container">
+        <img class = "lock" src='path8.png'/>
+        <p class="text">phrase</p>
+        <input class = "main-form" type="text" name="pwd" id="pwd">
+        <br/>
+        <div class="radio-container">
+            <input type="checkbox" name="hash" id="hash">
+            <label for="hash">hash</label>
+            <input type="checkbox" name="un-hash" id="un-hash">
+            <label for="un-hash">un-hash</label>
+        </div>
+        <br/>
+        <button class="send-button" onclick="doSomething()">send</button>
+        <div id="hash-container"></div>
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>
